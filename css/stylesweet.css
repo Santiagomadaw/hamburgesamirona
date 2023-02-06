@@ -1,0 +1,279 @@
+
+header{
+    color: var(--pan);
+    display:flex;
+ position: absolute;
+  width:100%;
+  justify-content: center;
+    margin: 70px 0px 0px 0px;
+text-align: center;
+    font-size: 5vh;
+    filter: drop-shadow(0 0 10px gold   ); 
+    text-transform:uppercase;
+}
+body {
+   
+    background-color: var(--fondo);
+    height: 100vh;
+}
+.contenedor{
+ display: grid;
+ place-items: center;
+ height: 100%;
+}
+.super{
+    translate: 0 -8px;
+}
+
+
+.ajonjoliUP{
+  display: flex;
+  justify-content: space-around;
+    height: 70px;
+    width: 280px;
+    translate: 0 40px;
+   
+
+}
+.ajonjoliDOWN{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    width: 370px;
+    translate: 0 30px;
+
+}
+.esquinaqueso{
+    position: relative;
+    height: 70px;
+    width: 150px;
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    background-color: var(--queso);
+    translate: 10px 0;
+
+}
+.semilla{
+    height: 16px;
+    width: 16px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+
+.burguerContiner{
+    
+    height: 350px;
+    width: 400px;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    filter: drop-shadow(0 0 10px gold   ); 
+    
+    
+    
+
+    
+}
+.pan   {
+ 
+   
+    background: var(--pan);
+}
+.up{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 135px;
+    width: 370px;
+    border-radius: 49% 51% 52% 48% / 97% 97% 3% 3% ;
+}
+.queso{
+    height: 20px;
+    width: 370px;
+    background: var(--queso);
+    border-radius: 10px;
+}
+.carne{
+    height: 75px;
+    width: 400px;
+    background: var(--carne);
+    border-radius: 35px;
+}
+.tomate{
+    height: 20px;
+    width: 370px;
+    background: var(--tomate);
+    border-radius: 10px;
+    display: flex;
+}
+.pandown{
+    height: 95px;
+    width: 370px;
+    display:flex;
+    z-index: -11;
+}
+
+.derecha{
+    height: 95px;
+    width: 185px;
+    background: var(--pan);
+    border-radius: 0% 100% 42% 58% / 100% 5% 95% 0% ;
+}
+
+.izquierda{
+    height: 95px;
+    width: 185px;
+    border-radius: 100% 0% 58% 42% / 5% 100% 0% 95% ;
+    background: var(--pan);
+    
+}
+
+.milechuga{
+   translate: 0px 240px;
+    margin:auto;
+    position: absolute;
+    height: 70px;
+    width: 400px;
+    z-index: -10;
+    overflow: hidden;
+}
+.contenedorlechuga{
+   
+    justify-content: space-around;
+    position: absolute;
+    height: 60px;
+    width: 325px;
+    display:grid;
+    grid-template-columns: 65px 65px 65px 65px 65px;
+   
+ 
+ 
+
+}
+.lechuga{
+    
+    justify-content: space-around;
+    height: 40px;
+    min-width: 110px; 
+    background: var(--lechuga);
+    border-radius: 50% 50% 50% 50% / 5% 5% 95% 95% ;
+    translate: 15px 10px;
+
+}
+.contienetppapan{
+    
+    border-radius: 50%;
+    translate: 0px 240px;
+    margin:auto;
+    position: absolute;
+    height: 56px;
+    width: 400px;
+    z-index: -10;
+    overflow: hidden;
+
+}
+.tapapan{
+   
+    justify-content: space-around;
+    position: absolute;
+    height: 60px;
+    width: 325px;
+    display:grid;
+    grid-template-columns: 65px 65px 65px 65px 65px;
+}
+.tpan{
+    
+    justify-content: space-around;
+    min-height: 110px;
+    min-width: 110px; 
+    background: var(--pan);
+    border-radius: 50%;
+    translate: 15px 32px;
+}
+
+.oculto{
+    opacity: 0;
+}
+
+.dosojos
+{
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    height: 80px;
+    width: 210px;
+    z-index: 10;
+    translate: 0 80px;
+    
+    
+}
+.ojo{
+   
+    height: 80px;
+    width: 80px;
+    background:  
+    -webkit-radial-gradient(10% 80%, white, rgb(58, 58, 58));
+    border-radius: 50%;
+    display: flex;
+ 
+
+
+}
+.ojob{
+    margin: auto;
+    position: relative;
+
+    height: 75px;
+    width: 75px;
+    background:  
+    -webkit-radial-gradient(0% 30%, white, rgb(134, 134, 134));
+    border-radius: 50%;
+    display: flex;
+
+   
+
+}
+
+.ojoa{
+    margin: auto;
+    position: relative;
+
+    height: 75px;
+    width: 75px;
+    background:  
+    -webkit-radial-gradient(0% 30%, white, rgb(134, 134, 134));
+    border-radius: 50%;
+    display: flex;
+  
+   
+
+}
+
+.pupila{
+    margin: 5px;
+
+
+
+    height: 50px;
+    width: 50px;
+    background:  
+    -webkit-radial-gradient(0% 30%, rgb(0, 0, 0),rgb(61, 61, 61));
+    border-radius: 50%;
+    display: flex;
+    -webkit-user-drag: auto;
+}
+
+.boca{
+ 
+    display: flex;
+  align-items: center;
+    margin: auto;
+    font-size: 200px;
+    height:25px;
+    width: 100px;
+    -webkit-transform: rotate(90deg);
+   
+    translate: 18px 15px;
+    
+    
+}
